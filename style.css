@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head_1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+.head a{
+padding-right: 5px;
+}
+
+#logo,
+img {
+  height: 20px;
+  width: 20px;
+ 
+}
+
+a,
+u {
+  text-decoration: none;
+}
+
+ul li {
+  display: inline;
+  text-align: end;
+  margin-top: 0px;
+  padding: 10px;
+}
+
+.head {
+  text-align: end;
+}
+
+.banner {
+  text-align: center;
+  /* padding: 60px 400px 60px 400px; */
+  background-image: url(blue.jpg);
+  background-size: cover;
+padding-left: 25vw;
+padding-right: 25vw;
+ 
+}
+
+button {
+  color: white;
+  background-color: rgba(49, 49, 80, 0.7);
+}
+#p1 {
+  color: white;
+}
+
+.banner2 {
+  /* width: 100%; */
+  height: 20vh;
+  margin-top: 10px;
+  text-align: center;
+  /* padding: 10px 300px 10px 300px; */
+  background-color: white;
+  padding-left: 25vw;
+  padding-right: 25vw;
+
+}
+u {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.banner3 {
+  text-align: center;
+  padding-bottom: 4vh;
+}
+
+#banner4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  margin-bottom: 4vh;
+}
+
+.card {
+  text-align: center;
+}
+
+.card img{
+  height:60px ;
+  width: 60px;
+}
+
+
+
+#office{
+  display: flex;
+  /* justify-content: center; */
+  /* text-align: center; */
+  /* justify-content: space-evenly; */
+  padding-left: 15vw;
+padding-right: 15vw;
+width: 100%;
+
+}
+
+.office_image img {
+  width: 30vw;
+  height: 200px;
+}
+
+#office.text {
+  width: 10vw;
+  height: 200px;
+}
+
+.text{
+  width: 30vw;
+  height: 200px;
+  padding-left: 3vw;
+}
+
+
+.office.text p{
+  text-justify: auto;
+  padding-bottom: 1vw;
+
+}
+
+.socialmedia {
+  background-color: rgb(0, 200, 255);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+#contact1 {
+  border-radius: 50%;
+  color: white;
+}
+
+#footer {
+  display: flex;
+  height: 100px;
+  background-color: black;
+  color: white;
+  justify-content: center;
+}
+
+
+
+@media screen and (max-width:768px){
+
+  .banner h1{
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  #h2{
+font-size: 20px;
+  }
+.banner2 >b{
+  font-size: 15px;
+  text-align: center;
+}
+
+#office{
+  margin-left: 0%; 
+  padding-left: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.office_image img {
+  width: 100%;
+  height: auto;
+}
+
+.text{
+ 
+  width: 100%;
+  height: auto;
+
+}
+
+.card img{
+  height:auto ;
+  width: 100%;
+}
+
+#banner4 {
+  display: flex;
+  flex-direction: column;
+}
+
+  .banner_5 {
+  width: 50%;
+  /* margin-left: 0px; */
+  }
+}
+
+.banner2 {
+  height: auto;
+}
+
+
+@media screen and (max-width:426px){
+  #banner4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .head li{
+    display: flex;
+    flex-direction: row;
+  }
+  #logo, img{
+    width: 70%;
+    height: calc(100% - 20px);
+  }
+}
+
+
+
+
+@media screen and (max-width:366px){
+#contact{
+  font-size:auto;
+  text-align: center;
+}
+
+#footer ul{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  line-height: 2px;
+}
+.contact ul{
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+align-items: center;
+line-height: 2px;
+}
+}
+
+
+@media screen and (min-width:780px){
+.office{
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+}
+
+
